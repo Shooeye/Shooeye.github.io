@@ -1,0 +1,39 @@
+body{
+	background-color:lightblue;
+}
+#resume{
+	height:auto;
+	width:100%;
+	padding:25px;
+	margin-top:50px;
+}
+
+#section1{
+	color:white;
+	background-color:lightblue;
+	display:block;
+}
+
+#section2{
+	color:white;
+	background-color:lightgreen;
+	display:block;
+}
+
+#section3{
+	color:white;
+	background-color:lightsalmon;
+	display:block;
+}
+
+#section4{
+	color:white;
+	background-color:black;
+	display:block;
+}
+
+#section5{
+	color:white;
+	background-color:lightgrey;
+	display:block;
+}
