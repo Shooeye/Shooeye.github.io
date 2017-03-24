@@ -1,39 +1,88 @@
-body{
-	background-color:lightblue;
+*{
+	margin:0px;
+	padding:0px;
 }
+
 #resume{
 	height:auto;
 	width:100%;
 	padding:25px;
-	margin-top:50px;
 }
 
 #section1{
 	color:white;
-	background-color:lightblue;
+	background: url("../images/mountain_lake.jpg") no-repeat top center fixed ;
 	display:block;
+	height:500px;
+	background-size:cover;
+	padding:50px;
+	text-align:center;
 }
 
 #section2{
 	color:white;
-	background-color:lightgreen;
+	background-color:white;
 	display:block;
+	height:250px;
 }
 
 #section3{
 	color:white;
-	background-color:lightsalmon;
+	background-color:white;
 	display:block;
+	height:250px;
 }
 
 #section4{
 	color:white;
-	background-color:black;
+	background-color:white;
 	display:block;
+	height:auto;
+	padding:20px;
 }
 
 #section5{
+	background-color:lightgray;
 	color:white;
-	background-color:lightgrey;
+	display:block;
+	padding:25px;
+	height:auto;
+	text-shadow: 2px 2px 5px navy;
+}
+	
+#brand_name{
+	text-shadow: .5px .5px 3px navy;
+	font-size: 30px;
+}
+
+#mainNavBar ul li a{
+	text-shadow: .5px .5px 3px navy;
 	display:block;
 }
+
+#social_icons a img{
+	height:50px;
+	width:50px;
+}
+
+h1{
+	text-shadow: 3px 3px 20px navy;
+	font-size:50px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p{
+	text-shadow: 2px 2px 5px navy;
+	font-size:20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
