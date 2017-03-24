@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Andy S. Chen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/main.css">
+	
+</head>
+<body data-spy="scroll" data-target="#myscroller" data-offset="10" style="padding-top:50px;">
+	<nav class="navbar navbar-default navbar-fixed-top" id="myscroller">
+		<div class="container:fluid">
+			
+			<!-- Logo -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<a href="index.html" class="navbar-brand" > 
+					<div id="brand_name"> ANDY S. CHEN </div>
+				</a>
+				
+			</div>
+			
+			<!-- Menu Items -->
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav navbar-right nav-tabs ">
+					<li class="active"> <a href="#section1">Home</a></li>
+					<li><a href="#section2">Skills</a></li>
+					<li><a href="#section3">Social Media</a></li>
+					<li><a href="#section4">Resume</a></li>
+					<li><a href="#section5">Contact Info</a></li>
+				</ul>
+			</div>
+		
+		</div>
+	</nav>
+	
+	
+	<div class="container:fluid">
+		<div class="row" >
+			<div>
+				
+				<div id="section1">
+					<h1>Hi, I am Andy</h1>
+					<p>This is my first website</p>
+					<p>I love my girlfriend</p>
+				</div >
+				
+				<div id="section2">
+					
+				</div>
+				
+				<div id="section3">
+
+				</div>
+				
+				<div id="section4">
+					
+				</div>
+				
+				<div id="section5">
+					<div id="social_icons" class="text-center">
+						<a class="btn" href="#" role="button"><img src="images/facebook.png"></a>
+						<a class="btn" href="#" role="button"><img src="images/linkedin.png"></a>
+						<a class="btn" href="#" role="button"><img src="images/github.png"></a>
+						<footer>©2017 Shooeye All Rights Reserved.</footer>
+					</div>
+				</div>
+			
+			
+			</div>
+		</div>
+	</div>
+
+<script>
+$(document).ready(function(){
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+  $("#myscroller a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>	
+
+
+</body>
+</html>
+
