@@ -1,0 +1,63 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bg-img{
+	background: url("../images/me_ocean_blur.jpg") no-repeat center fixed; 
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+body{
+	font-family: "Helvetica";
+	color:white;
+}
+
+.home-bg{
+	background: url("../images/mountain_lake.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.custom-big{
+	text-shadow: 3px 3px 10px black;
+	font-size: 60px;
+	color:#000033;
+}
+
+.custom-small{
+	text-shadow: 1px 1px 5px black;
+	font-size: 15px;
+	font-weight:bold;
+	color:#000033;
+}
+
+.custom-medium{
+	text-shadow: 1px 1px 5px black;
+	font-size: 27px;
+	color:#000033;
+}
+
+.custom-box{
+	background-color:transparant;
+	height:auto;
+	width: 500px;
+	margin:10px auto;
+}
+
+.custom-button:hover{
+	opacity:0.8;
+}
+
+#body2 p{
+	text-shadow: 1px 1px 5px black;
+}
+
+
+
+
