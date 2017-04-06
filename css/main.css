@@ -4,15 +4,10 @@
 	color:#000033;
 }
 
-@media print {
-  a[href]:after {
-    content: none !important;
-  }
-}
-
 body{
 	background-color:#e6e6ff ;
 	font-family: "Helvetica";
+	position: relative; 
 }
 
 #aboutme{

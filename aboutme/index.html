@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Andy S. Chen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/navBar.css">
+    <link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+
+	
+</head>
+<body>
+	
+
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+				
+		<div class="container:fluid">
+			
+			<!-- Menu Bar -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<a href="index.html" class="navbar-brand brand_name" >
+					<div style="display:inline-block;">Andy S. Chen</div>
+				</a>
+				
+			</div>
+			
+			<!-- Menu Items -->
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav navbar-right nav-tabs">
+					<li class="active"><a href="#aboutme">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#connect">Connect</a></li>
+				</ul>
+			</div>
+		
+		</div>
+	</nav>
+	
+
+	<div class="container:fluid">
+		
+		<!-- ABOUT ME -->
+		<div class="row text-center" data-aos="zoom-in-down" data-aos-duration="1000" id="aboutme">
+			<h2>About Me</h2>
+		
+			<div class= "col-md-4 col-md-offset-4">
+				<img class="img-circle active" src="../images/me.png">
+				<div class="padding25px">
+					<p>I'm just an average guy trying to graduate and find a career that will shape my future. 
+						I'm interested in becoming a software engineer and I have gained many coding experiences through
+						courseworks and projects.
+					</p>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!-- SKILLS -->
+		<div class="row text-center" id="skills">
+			<h2>Skills</h2>
+			
+			<div class="padding50px">
+				<div class="col-md-4">
+
+					
+				</div>
+				
+				<div class="col-md-4">
+					<ul class="no_bullets">
+						<li>Java</li>
+						<li>Python</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>C++/C</li>
+					</ul>
+				</div>
+				
+				<div class="col-md-4">
+
+
+				</div>
+			</div>	
+
+		</div>
+		
+		<!-- PROJECTS -->
+		<div class="row" id="projects">
+			<h2>Projects</h2>
+			<div class="container padding50px">
+				<div class="col-md-4 border-style">
+					<div class="text-block"></div>
+				</div>
+				
+				<div class="col-md-4 border-style">
+					<div class="text-block"></div>
+				</div>
+				
+				<div class="col-md-4 border-style">
+					<div class="text-block"></div>
+				</div>
+			</div>
+		</div>
+			
+		<!-- CONNECT -->
+		<div class="row text-center" id="connect">
+			<h2>Connect with me</h2>
+			
+			<div class="col-md-4">
+				
+			</div>
+			
+			<div class="col-md-4" style="padding-top:200px; padding-bottom:50px;">
+				<div class="social_icons">
+					<a class="btn" href="#" role="button"><img src="../images/facebook.png"></a>
+					<a class="btn" href="#" role="button"><img src="../images/linkedin.png"></a>
+					<a class="btn" href="#" role="button"><img src="../images/github.png"></a>
+					<footer><p></p>©2017 Shooeye All Rights Reserved.</footer>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				
+			</div>
+
+		</div>
+	
+	
+	</div>
+	<footer class="text-block"> BLAHHHH</footer>
+
+
+	<script>
+		$('a[href*=#]').on('click', function(event){     
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
+		
+		$(".nav li").on("click", function() {
+		$(".nav li").removeClass("active");
+		$(this).addClass("active");
+		});
+		
+		$('body').scrollspy({ target: '#mainNavBar' })
+		
+		AOS.init()
+	</script>
+
+
+</body>
+
+</html>
+
