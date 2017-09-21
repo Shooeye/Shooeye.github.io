@@ -1,0 +1,159 @@
+*{
+	margin:0px;
+	padding:0px;
+	color:black ;
+}
+
+body{
+	font-family: "Helvetica";
+	color:white;
+}
+
+#welcome{
+	background-color:transparent;
+	height:500px;
+	margin-top: 50px ;
+	padding-top: 100px ;
+}
+
+#projects{
+	background-color:transparent;
+	height:auto;
+	padding: 100px 0px;
+}
+
+#connect{
+	background-color:transparent;
+	height:auto;
+	padding: 100px 0px;
+	text-shadow: 2px 2px 5px navy;
+}
+	
+.brand_name{
+	text-shadow: 1px 1px 5px navy;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+#mainNavBar ul li a{
+	text-shadow: .5px .5px 3px navy;
+	font-size: 20px;
+	color:#000033;
+}
+
+.social_icons a img{
+	height:50px;
+	width:50px;
+
+}
+
+h1{
+	text-shadow: 3px 3px 10px navy;
+	font-size:50px;
+}
+
+h2{
+	text-shadow: 1px 1px 3px gray;
+	font-size:30px;
+	text-align:center;
+	font-variant: small-caps;
+	margin-bottom: 25px;
+}
+
+h3{
+	text-shadow: 3px 5px 20px navy;
+	font-size:20px;
+	text-align:center;
+	font-variant: small-caps;
+}
+
+p{
+	text-shadow: 1px 1px 2px navy;
+	font-size:20px;
+}
+
+.text-block{
+	width:200px;
+	height:250px;
+	margin:20px auto;
+	background-color: blue;
+	box-shadow: 0px 0px 10px
+}
+
+.border-style{
+	border: 1px solid black;
+}
+
+.make_box{
+	margin: 60px 0px 140px 0px;
+	box-shadow: 0px 0px 5px
+}
+
+.footer_box{
+	background-color:grey;
+	height:auto;
+}
+
+.footer_box p{
+	color:lightgrey;
+	text-shadow: 1px 1px 2px navy;
+	font-size:15px;
+	
+}
+
+.make_border{
+	border: 2px solid black;
+}
+
+.bg-img{
+	background: url("../images/me_ocean_blur.jpg") no-repeat center fixed; 
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.custom-big{
+	text-shadow: 3px 3px 10px black;
+	font-size: 60px;
+	color:#000033;
+}
+
+.custom-small{
+	text-shadow: 1px 1px 5px black;
+	font-size: 15px;
+	font-weight:bold;
+	color:#000033;
+}
+
+.custom-medium{
+	text-shadow: 1px 1px 5px black;
+	font-size: 27px;
+	color:#000033;
+}
+
+.custom-box{
+	background-color:transparant;
+	height:auto;
+	width: 500px;
+	margin:10px auto;
+}
+
+.custom-button:hover{
+	opacity:0.8;
+}
+
+#body2 p{
+	text-shadow: 1px 1px 5px black ;
+}
+  
+
+
+
+
+
+
+
+
+
+
